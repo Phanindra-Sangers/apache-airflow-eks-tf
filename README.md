@@ -1,6 +1,11 @@
 # Self-managed Apache Airflow deployment for EKS
 Checkout the [documentation website](https://awslabs.github.io/data-on-eks/docs/blueprints/job-schedulers/self-managed-airflow) to deploy this pattern and run sample tests.
 
+## Usage 
+Run ./install.sh for installing Terraform code 
+
+Run ./cleanup.sh for Destroying all the Resources 
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
