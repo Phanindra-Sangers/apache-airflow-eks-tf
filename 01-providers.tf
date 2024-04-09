@@ -62,6 +62,7 @@ locals {
   efs_pvc                           = "airflowdags-pvc"
   tags = {
     Blueprint  = local.name
-    GithubRepo = "github.com/awslabs/data-on-eks"
+    GithubRepo = "https://github.com/Phanindra-Sangers/apache-airflow-airflow-eks-tf"
+    managedby = "phanindra.sangers"
   }
 }
